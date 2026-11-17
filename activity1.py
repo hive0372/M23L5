@@ -3,7 +3,7 @@ import pygame
 from pathlib import Path
 script_dir = Path(__file__).resolve().parent / "Stone-Paper-Scissor files-20261117T125510Z-1-001"
 image_path = script_dir / "background.jpg"
-
+#use python activity1.py to run the game
 
 def find_asset(stem_name, extensions=(".jpg", ".jpeg", ".png", ".ttf")):
     # Checks exact match first, then tries common extensions case-insensitively
